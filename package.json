@@ -1,0 +1,37 @@
+{
+	"name": "campfire-css",
+	"version": "0.0.1",
+	"description": "Simple responsive front-end framework.",
+	"main": "dist/campfire.min.css",
+	"scripts": {
+		"test": "gulp serve",
+		"build": "gulp build"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Prkns/campfire.git"
+	},
+	"keywords": [
+		"campfire",
+		"sass",
+		"css",
+		"ui",
+		"web",
+		"framework",
+		"grid"
+	],
+	"author": "Dave Perkins <david@prkns.me>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Prkns/campfire/issues"
+	},
+	"homepage": "https://github.com/Prkns/campfire#readme",
+	"devDependencies": {
+		"del": "^2.2.2",
+		"gulp": "^3.9.1",
+		"gulp-cleancss": "^0.2.2",
+		"gulp-rename": "^1.2.2",
+		"gulp-sass": "^3.0.0",
+		"gulp-sourcemaps": "^1.6.0"
+	}
+}
