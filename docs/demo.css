@@ -1,0 +1,34 @@
+/* Demo Styling */
+header .inner { text-align: center; }
+header h1,
+header p { color: #666; }
+
+
+.grid-demo div[class^="col-"],
+.grid-demo div[class*=" col-"],
+.grid-demo div[class^="col-g-"],
+.grid-demo div[class*=" col-g-"] {
+	background: #efefef;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+#type-demo div { text-align: left; }
+
+footer {
+	background: #efefef;
+	margin-top: 2rem;
+}
+
+footer .inner {
+	padding-bottom: 3rem;
+	padding-top: 3rem;
+	text-align: center;
+}
+
+footer h5,
+footer p {
+	color: #666;
+}
